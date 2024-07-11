@@ -223,6 +223,7 @@ body {
         margin-bottom: 2rem;
         font-style: italic;
      }
+     
      .Education h2 span{
         color: #0cf;
     }
@@ -425,6 +426,9 @@ section{
 .progress-line.Java span{
     width:85%
 }
+.progress-line.PowerBI span{
+    width:80%
+}
 .progress-line span::after{
     position: absolute;
     padding: 1px 8px;
@@ -456,6 +460,9 @@ section{
 
 .progress-line.Java span::after{
     content: "85%";
+}
+.progress-line.PowerBI span::after{
+    content: "80%";
 }
 .progress-line span::before{
     content: "";
